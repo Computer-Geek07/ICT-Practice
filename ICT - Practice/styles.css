@@ -1,0 +1,149 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav ul {
+    display: flex;
+    background-color: #ED254E;
+    padding: 2rem;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.125rem;
+    font-size: 100;
+    transition: color 250ms ease-in-out;
+}
+
+.nav a:hover, 
+.nav a:focus {
+    color: rgba(255, 255, 255, 1)
+}
+
+.home-hero {
+    background-image: url(img/hero-bg.jpg);
+    padding: 10em;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.primary-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, .9);
+}
+
+.primary-title span {
+    letter-spacing: 0;
+    display: block;
+    font-weight: 300;
+    color: rgba(255, 255, 255, .8);
+    font-size: 3rem;
+}
+
+.btn {
+    font-size: 2rem;
+    color: #ED254E;
+    padding: .75rem 1.5rem;
+    border: 3px solid #ED254E;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ED254E;
+    color: #FFF;
+}
+
+.about {
+    display: flex;
+    padding: 2em 0 0 0;
+}
+
+.about-title {
+    font-size: 3rem;
+    margin-left: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.info {
+    margin-top: 2em;
+    margin-left: 5em;
+    width: 75%;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    flex-direction: column;
+}
+
+.stats {
+    margin: 2em;
+    text-align: center;
+}
+
+.stats-title {
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.facts {
+    columns: 2;
+    column-rule: 1px solid #ED254E ;
+}
+
+.stat-title {
+    margin: 0;
+    font-size: 3rem; 
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.stat-title span {
+    display: block; 
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.footer-title {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.footer-text {
+    margin: 0 2em;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 5em;
+    padding: 2em 0;
+    text-align: center;
+    background-color: #232323;
+    color: rgba(255, 255, 255, .75)
+}
